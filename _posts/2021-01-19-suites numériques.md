@@ -2,7 +2,7 @@
 layout:     post
 title:      "Cours de suites numériques"
 subtitle:   "Notions générales"
-date:       2021-01-19 12:00:00
+date:       2021-10-05 22:05:00
 author:     "Rezak Souilah"
 catalog: false
 header-style: text
