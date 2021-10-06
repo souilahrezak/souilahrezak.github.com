@@ -17,7 +17,7 @@ I made a chart to visualize my experiences and interests on some of the programm
 
 
 [1]: https://www.degruyter.com/document/doi/10.1515/ms-2017-0313/html
-[2]: https://link.springer.com/article/10.1007/s00009-019-1360-8
+[2]: https://www.springer.com/journal/9
 [3]: https://ejde.math.txstate.edu/
 
 
