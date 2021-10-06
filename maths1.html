@@ -8,6 +8,12 @@ multilingual: true
 
 {% include multilingual-sel.html %}
 
+<!-- Chinese Version -->
+<div class="ar post-container">
+    {% capture suites_ar %}{% include /maths1/suites/ar.md %}{% endcapture %}
+    {{ suites_ar | markdownify }}
+</div>
+
 
 <!-- English Version -->
 <div class="en post-container">
