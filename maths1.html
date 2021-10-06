@@ -8,16 +8,11 @@ multilingual: true
 
 {% include multilingual-sel.html %}
 
-<!-- Chinese Version -->
-<div class="zh post-container">
-    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
-    {{ about_zh | markdownify }}
-</div>
 
 <!-- English Version -->
 <div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
+    {% capture suites_en %}{% include /maths1/suites/en.md %}{% endcapture %}
+    {{ suites_en | markdownify }}
 </div>
 
 
