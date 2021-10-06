@@ -10,7 +10,7 @@ I made a chart to visualize my experiences and interests on some of the programm
 ##### Publications
 
 - Ayadi, Hocine, and Rezak Souilah. ["Existence and regularity results for unilateral problems with degenerate coercivity."][1] Mathematica Slovaca 69.6 (2019): 1351-1366.
-- Souilah, Rezak. ["Existence and Regularity Results for Some Elliptic Equations with Degenerate Coercivity and Singular Quadratic Lower-Order Terms".] [2] Mediterranean Journal of Mathematics 16.4 (2019): 1-21.
+- Souilah, Rezak. ["Existence and Regularity Results for Some Elliptic Equations with Degenerate Coercivity and Singular Quadratic Lower-Order Terms".][2] Mediterranean Journal of Mathematics 16.4 (2019): 1-21.
 - Souilah, Rezak. ["Existence of bounded solutions for quasilinear parabolic systems with quadratic growth."][3] Electronic Journal of Differential Equations 2016.200 (2016): 1-25.
 - Rezak, Souilah. Existence de solutions pour un système parabolique quasi-linéaire à croissance particulière. Diss. 2016.
 
