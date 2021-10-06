@@ -17,15 +17,15 @@ header-img: "img/portfolio.jpg"
 	<body>
 		<div class="container" style="margin:0;padding:0;width:100%;">
 			<header>
-				<img width="175" height="175" style="border-radius:50%;" src="/img/avatar-1.jpg">
-				<h1>杨浅</h1>
-				<p>行走在生活里的人,<br>
-				              被生活中诗与美的语言打动，记录生活中其它的细枝末节.</p>
+				<img width="175" height="175" style="border-radius:50%;" src="/img/souilah.png">
+				<h1>Rezak Souilah</h1>
+				<p>Les gens qui marchent dans la vie,<br>
+				              Ému par le langage de la poésie et de la beauté de la vie, enregistrez d'autres détails de la vie.</p>
 			</header>
 					{% if site.duoshuo_username %}
 					<li>
 						<div class="cbp_tmlabel">
-			                <!-- 多说评论框 start -->
+			                <!-- En savoir plus sur la zone de commentaire start -->
 			                <div class="comment">
 			                    <div class="ds-thread"
 									data-thread-key="{{site.duoshuo_username}}/portfolio"
@@ -33,7 +33,7 @@ header-img: "img/portfolio.jpg"
 			                        data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
 			                    </div>
 			                </div>
-			                <!-- 多说评论框 end -->
+			                <!-- En savoir plus sur la zone de commentaire end -->
 						</div>
 					</li>
 					{% endif %}
@@ -41,7 +41,7 @@ header-img: "img/portfolio.jpg"
 			</div>
 		</div>
 		{% if site.duoshuo_username %}
-		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+		<!-- En savoir plus sur le code JS public start (Une page Web ne doit être insérée qu'une seule fois) -->
 		<script type="text/javascript">
 		    // dynamic User by 
 		    var _user = '{{site.duoshuo_username}}';
@@ -57,7 +57,7 @@ header-img: "img/portfolio.jpg"
 		         || document.getElementsByTagName('body')[0]).appendChild(ds);
 		    })();
 		</script>
-		<!-- 多说公共JS代码 end -->
+		<!-- En savoir plus sur le code JS public end -->
 		{% endif %}
 	</body>
 </html>
