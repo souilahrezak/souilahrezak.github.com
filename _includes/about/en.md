@@ -5,8 +5,6 @@ In the past, I worked on
 I studied Mathematics at [Ecole Normale Supérieure](http://www.ens-kouba.dz).
 
 
-I made a chart to visualize my experiences and interests on some of the programming languages. I know. I know this is always contraversial. But it's just something quite self-entertaining to do. So bare with me and have fun reading that!
-
 ##### Publications
 
 - Ayadi, Hocine, and Rezak Souilah. ["Existence and regularity results for unilateral problems with degenerate coercivity."][1] Mathematica Slovaca 69.6 (2019): 1351-1366.
