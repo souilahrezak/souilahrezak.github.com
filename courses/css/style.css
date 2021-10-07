@@ -57,11 +57,10 @@ body, html {
 /* The date/time */
 .cbp_tmlabel time {
 	font-size: 1.0em;
-	text-align: left;
 	position: absolute;
 	top: 0px;
 	line-height: 64px;
-	right: 5px;
+	padding-right: 100px;
 	margin-right: 1em;
 	color: #a5a7aa;
 }
