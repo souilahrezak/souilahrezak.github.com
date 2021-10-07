@@ -44,6 +44,7 @@ body, html {
 	max-width: 600px;
 	margin: 0 auto;
 	margin-top: -120px;
+	
 }
 
 .cbp_tmtimeline > li {
@@ -52,6 +53,7 @@ body, html {
 	display: inline-block;
 	vertical-align: top;
 	width: 100%;
+	
 }
 
 /* The date/time */
@@ -72,7 +74,7 @@ body, html {
 
 /* The card */
 .cbp_tmtimeline > li .cbp_tmlabel {
-	background: white;
+	background: #d4edf4;
 	color: rgb(78, 78, 78);
 	/* line-height: 1.4; */
 	position: relative;
