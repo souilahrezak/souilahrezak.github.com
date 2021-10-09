@@ -98,13 +98,13 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Hocine Ayadi",
+    title: "Hocine Ayadi",
     #     href: ""
     # },{
-        title: "Rezak Souilah",
+      # title: "Rezak Souilah",
         href: ""
     },{
-        title: "Hamza Souilah",
+       # title: "Hamza Souilah",
         href: "https://sherrywoo.me/"
     }
 ]
