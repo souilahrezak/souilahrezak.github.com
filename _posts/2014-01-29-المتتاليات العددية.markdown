@@ -1,0 +1,12 @@
+layout:     post
+title:      "المتتاليات العددية"
+subtitle:   " "
+date:       2015-10-10 19:38:00
+author:     "Hux"
+header-img: ""
+catalog: true
+tags:
+   
+---
+
+## المتتاليات العددية
