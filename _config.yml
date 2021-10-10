@@ -93,18 +93,3 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-
-
-# Friends
-friends: [
-    {
-    title: "Hocine Ayadi",
-    #     href: ""
-    # },{
-      # title: "Rezak Souilah",
-        href: ""
-    },{
-       # title: "Hamza Souilah",
-        href: "https://sherrywoo.me/"
-    }
-]
