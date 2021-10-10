@@ -1,14 +1,14 @@
 ---
-layout: post
-title: المتتاليات العددية
-published: true
-date: 2021-10-10 
-author: صويلح رزاق
-permalink: /suites-numériques/
-categories: [cours, Maths1]
-tags: [suites numériques]
-image:
-series: "رياضيات1"
+layout:     post
+title:      "Suites numériques"
+subtitle:   "مقدمة حول المتتاليات العددية"
+date:       2021-10-10 19:00:00
+author:     "Souilah Rezak"
+catalog: false
+header-style: text
+
+  
+---
 
 ---
 
