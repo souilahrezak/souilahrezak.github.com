@@ -1,11 +1,17 @@
-layout: post
-title:   المتتاليات العددية
-subtitle:  
-date:    2021-10-10 19:38:00
-author: صويلح رزاق
-
-   
 ---
+layout: post
+title: المتتاليات العددية
+published: true
+date: 2021-10-10 
+author: صويلح رزاق
+permalink: /suites-numériques/
+categories: [cours, Maths1]
+tags: [suites numériques]
+image:
+series: "رياضيات1"
+
+---
+
 
 ## المتتاليات العددية
 
