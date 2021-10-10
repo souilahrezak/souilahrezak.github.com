@@ -1,9 +1,9 @@
 layout: post
-title:      "المتتاليات العددية"
-subtitle:   " "
-date:       2021-10-10 19:38:00
-author:     "صويلح رزاق"
-header-img: ""
+title:   المتتاليات العددية
+subtitle:  
+date:    2021-10-10 19:38:00
+author: صويلح رزاق
+
    
 ---
 
