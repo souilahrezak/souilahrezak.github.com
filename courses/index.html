@@ -1,46 +1,163 @@
 ---
-layout: page
-description: "Maître de Convérence classe B"
+title: Cours
+layout: post
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:300 }}
-            {% else %}
-                {{ post.content | strip_html | truncate:200 }}
-            {% endif %}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+<!DOCTYPE html>
+<html class="no-js" dir="{{ site.dir }}">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hux - Timeline</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="scss/_direction.scss" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		
+				<div class="container" style="margin:0;padding:0;width:100%;">
+			<header>
+			
+			</header>
+			<div class="main">
+			
+				<ul class="cbp_tmtimeline">
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">المتتاليات العددية</h2>
+							
+							<ol>
+							        <li>
+							            مفاهيم أولية حول المتتاليات العددية 
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1G6JrK1xNWVjoHv-xJaSRDsy4AgTJ10jO/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            مفهوم النهايات و طرق حسابها، المتتاليات المتقاربة، و المبرهنات المتعلقة بها
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1RQEWlrRNujwiwiU1QVObP5UOpFvexiuw/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            سلسلة التمارين الأولى
+									<span class="link"><a target="_blank"href="https://drive.google.com/file/d/163uOgbLi4VjlMj2JvYpkXR_IHewS5ebl/view">Fichier PDF</a></span>
+								</li>
+								
+								
+								<li>
+							            حلول سلسلة التمارين الأولى
+									<span class="link"><a target="_blank"href="https://drive.google.com/file/d/1XpzOP0splHKZkvxdZ2nYB3w8MAkwOP60/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            سلسلة تمارين مقترحة
+									<span class="link"><a target="_blank"href="https://drive.google.com/file/d/1OJ1m1DlB4q4Moud5Riy6nqLoH7Oge6tT/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+							</ol>
+						</div>
+					 </li>
+					
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">الدوال العددية</h2>
+						
+							
+							<ol>
+							        <li>
+							            مفاهيم أولية حول الدوال العددية
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1Dgulc8V4ZvdlUmWPEZmO5ZrXy0GOMQV7/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            مفهوم نهايات الدوال، وطرق حسابها
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1AMNmY--HL4uF5MZ9dEFufOQxAuPjJTMZ/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            سلسلة التمارين الثانية 
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1TzJt9xbdG5gU4uR9FAjZRmOh2h4tF9zw/view">Fichier PDF</a></span>
+								</li>
+								
+							</ol>
+						</div>
+					 </li>
+					
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">الدوال المستمرة</h2>
+						
+							
+							<ol>
+							        <li>
+							            الدالة المستمرة عند نقطة
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1EnEqDuJbEocHfTEiyqpAmUwS272NCYeB/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            الدالة المستمرة على مجموعة
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1MB0s_pWvHLwKvHbBDyIkN_w-gn7a18Gc/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							           تركيب الدوال المستمرة
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1fNTMXONM77PKk8_Wb5-OBkVveB0M_vRi/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            مبرهنة القيم المتوسطة، والتمديد بالاستمرارية
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1wWn2aONelsTSE6Spn1yTmwqXbL2gTJdv/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            سلسلة التمارين الثالثة  
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1BtVLTCfl3pb2zigfs0xwBfb7VYkv6VFu/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+							</ol>
+						</div>
+					 </li>
+					
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="boxoffice">الدوال القابلة لاشتقاق</h2>
+							
+							<ol>
+							        <li>
+							            قابلية اشتقاق دالة عند نقطة
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1FRIEnRp_-aV-_kXYLzv-0axrZQ-m1HFs/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            قابلية اشتقاق دالة على مجموعة
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1E9Bgi_hauqrutOnV2wXxoMjxr9sVF79Q/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            الدالة المشتقة، ومبرهنة التزايدات المنتهية
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1on2PlL5TzaUwEmwRvrwye1QdenOX7yzK/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            قابلية اشتقاق الدالة العكسية، وقاعدة لوبيتال
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1kZnJGxVRniZI6Er7dy2usZnwKugOB4sk/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+								<li>
+							            سلسلة التمارين الرابعة  
+									<span class="link"><a target="_blank" href="https://drive.google.com/file/d/1zYDlWck1turoVGNqJF1tUPjpsZQgWu5s/view?usp=sharing">Fichier PDF</a></span>
+								</li>
+								
+							</ol>
+						</div>
+					 </li>
+				</ul>
+										
+				
+			</div>
+		</div>
+	
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+
+</body>
+</html>
