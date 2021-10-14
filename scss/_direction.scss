@@ -1,6 +1,4 @@
-//
-// Handling of rendering direction - right to left or left to right
-//
+@import"_includes/_comments";
 
 @mixin direction-rules($start, $end) {
   caption,
