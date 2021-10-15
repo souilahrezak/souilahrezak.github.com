@@ -1,16 +1,6 @@
 ---
 ---
 
-//
-// IMPORTS
-//
-@import"_comments";
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
-
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
