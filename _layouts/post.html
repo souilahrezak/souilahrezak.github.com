@@ -48,12 +48,6 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
-                {% if page.comments_id %}
-                <div class="comment">
-                {% include comments.html %}
-                </div>
-                {% endif %}
-
     <!-- Side Catalog Container -->
         {% unless page.no-catalog %}
             <div class="
@@ -88,6 +82,12 @@ layout: default
 
 	
 </article>
+<br>
+	{% if page.comments_id %}
+                
+         {% include comments.html %}
+            
+          {% endif %}
 
 <!-- add support for mathjax by voleking-->
 {% if page.mathjax %}
