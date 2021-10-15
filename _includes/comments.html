@@ -1,6 +1,6 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
-    const GH_API_URL = 'https://api.github.com/repos/lezaz/lezaz.github.com/issues/{{ page.comments_id }}/comments';
+    const GH_API_URL = 'https://api.github.com/repos/souilahrezak/souilahrezak.github.com/issues/{{ page.comments_id }}/comments';
     
     let request = new XMLHttpRequest();
     request.open( 'GET', GH_API_URL, true );
@@ -57,8 +57,8 @@
     <hr>
     
     <div class="github-comments">
-        <p id="leave-a-comment">Comments</p>
+        <p id="leave-a-comment">التعليقات</p>
         <ul id="gh-comments-list"></ul>
         <p id="no-comments-found">No comments found for this article.</p>
-        <p id="leave-a-comment">Join the discussion for this article by commenting in <a href="https://github.com/lezaz/lezaz.github.com/issues/{{ page.comments_id }}" ><u>this ticket</u></a>. Comments appear on this page instantly.</p>
+        <p id="leave-a-comment"> انضم إلى المناقشة لهذا الدرس بالتعليق في<a href="https://github.com/souilahrezak/souilahrezak.github.com/issues/{{ page.comments_id }}" ><u> هذا المكان </u></a>؛ ليظهر تعليقك فورا على هذه الصفحة.</p>
     </div>
