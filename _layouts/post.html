@@ -48,20 +48,11 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
+                {% if page.comments_id %}
                 <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
+                {% include comments.html %}
                 </div>
-                <!-- disqus 评论框 end -->
                 {% endif %}
-
-                {% if site.netease_comment %}
-                <!-- 网易云跟帖 评论框 start -->
-                <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-                <!-- 网易云跟帖 评论框 end -->
-                {% endif %}
-            </div>  
 
     <!-- Side Catalog Container -->
         {% unless page.no-catalog %}
@@ -94,11 +85,7 @@ layout: default
             </div>
         </div>
     </div>
-<br>
-	<br>
-	{% if page.comments_id %}
-			{% include comments.html %}
-    {% endif %}
+
 	
 </article>
 
