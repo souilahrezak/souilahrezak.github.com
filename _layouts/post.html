@@ -82,12 +82,13 @@ layout: default
 
 	
 </article>
-<br>
+<div class="gh-comments-list">
 	{% if page.comments_id %}
                 
          {% include comments.html %}
             
           {% endif %}
+</div>
 
 <!-- add support for mathjax by voleking-->
 {% if page.mathjax %}
