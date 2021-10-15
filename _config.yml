@@ -1,7 +1,7 @@
 # Site settings
 dir: rtl
-title: Souilah Rezak Blog
-SEOTitle: Souilah Blog
+title: مدونة صويلح رزاق
+SEOTitle: مدونة صويلح
 header-img: img/home-bg.jpg
 email: rezazsouilah@gmail.com
 description:  Web & Mobile Lover，Software Engineer，UX Designer | "
@@ -81,7 +81,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Rezak Souilah <br> Enseignant chercher à l'université Yahia Fares, Médéa"
+sidebar-about-description: "صويلح رزاق <br> أستاذ باحث بجامعة يحي فارس المدية"
 sidebar-avatar: /img/souilah.png  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
