@@ -2,6 +2,7 @@
 layout:     post
 title:      "المتتاليات العددية"
 subtitle:   ""
+comments_id: 1
 date:       2021-10-10 14:00:00
 author:     "صويلح رزاق"
 catalog: false
