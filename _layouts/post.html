@@ -94,16 +94,18 @@ layout: default
             </div>
         </div>
     </div>
+<br>
+	<br>
+	{% if page.comments_id %}
+			{% include comments.html %}
+    {% endif %}
+	
 </article>
 
 <!-- add support for mathjax by voleking-->
 {% if page.mathjax %}
   {% include mathjax_support.html %}
 {% endif %}
-
-{% if page.comments_id %}
-			{% include comments.html %}
-    {% endif %}
 
 {% if site.anchorjs %}
 <!-- async load function -->
