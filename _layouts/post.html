@@ -47,6 +47,12 @@ layout: default
                     {% endif %}
                 </ul>
                 <hr style="visibility: hidden;">
+		    
+	{% if page.comments_id %}	    
+     <div class="gh-comments-list">
+	     {% include comments.html %}        
+     </div>
+		     {% endif %}
 
     <!-- Side Catalog Container -->
         {% unless page.no-catalog %}
@@ -82,13 +88,7 @@ layout: default
 
 	
 </article>
-<div class="gh-comments-list">
-	{% if page.comments_id %}
-                
-         {% include comments.html %}
-            
-          {% endif %}
-</div>
+
 
 <!-- add support for mathjax by voleking-->
 {% if page.mathjax %}
