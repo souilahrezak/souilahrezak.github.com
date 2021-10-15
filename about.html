@@ -1,14 +1,13 @@
 ---
 layout: page
-title: "About"
+title: "عن الكاتب"
 description: ""
 header-img: "img/about-bg.png"
 multilingual: true
 ---
 
-{% include multilingual-sel.html %}
 
-<!-- English Version -->
+
 <div class="en post-container">
     {% capture about_en %}{% include about/en.md %}{% endcapture %}
     {{ about_en | markdownify }}
