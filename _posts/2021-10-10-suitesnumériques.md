@@ -1,25 +1,40 @@
+
+---
+layout:     post
+title:      "中国高等教育的系统性失败"
+subtitle:   "The Systematic Failure of Higher Education in China"
+date:       2021-01-19 12:00:00
+author:     "Hux"
+catalog: false
+header-style: text
+tags:
+  - 被夹
+---
 ---
 layout: post
 comments_id: 1
-title: "Suites numériques"
-subtitle: 'Notions générales'
-author: "Souilah Rezak"
+title: "المتتاليات العددية"
+date:     2021-01-19 12:00:00
+author: "صويلح رزاق"
+catalog: false
 header-style: text
-lang: en
 tags:
-  - Analyse1
+  - مفاهيم أولية
+  - المتتاليات الرتيبة
+  - المتتاليات المتقاربة
+  - المتتاليات التراجعية
 
 ---
 
 
 
-## Introdiction générale
+## مقدمة عامة
 
-### Définition d'une suites numériques
-
-
+### تعريف
 
 
-### Exemples
+
+
+### أمثلة
 
 
